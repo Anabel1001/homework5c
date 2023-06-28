@@ -7,7 +7,7 @@ int RandomNumbers(int rNumbers, int min, int max)
   {
   int[] randomNumber = new int[rNumbers];
   int sumElements = 0;
-  Console.Write("Получившийся массив: ");
+  Console.Write("Массив: ");
 
     for (int i = 0; i <randomNumber.Length; i++ ){
       randomNumber[i] = new Random().Next(1, 1000);
